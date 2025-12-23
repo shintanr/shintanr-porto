@@ -22,6 +22,7 @@
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <h1>SHEEESHH</h1>
+            <h2>tes</h2>
         </header>
 
         <!--=============== MAIN ===============-->
@@ -78,5 +79,31 @@
 
         <!--=============== MAIN JS ===============-->
         <script src=""></script>
+
+
+        <!-- firebase -->
+            <script type="module">
+                // Import the functions you need from the SDKs you need
+                import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+                import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-analytics.js";
+                // TODO: Add SDKs for Firebase products that you want to use
+                // https://firebase.google.com/docs/web/setup#available-libraries
+
+                // Your web app's Firebase configuration
+                // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+                const firebaseConfig = {
+                    apiKey: "AIzaSyChBq20p5mfDFf95Q-l-ey9MjfhNQTTjMA",
+                    authDomain: "shinta-nurrohmah.firebaseapp.com",
+                    projectId: "shinta-nurrohmah",
+                    storageBucket: "shinta-nurrohmah.firebasestorage.app",
+                    messagingSenderId: "536475044060",
+                    appId: "1:536475044060:web:de64f68463b07ebee64c19",
+                    measurementId: "G-XTW6EFK4TZ"
+                };
+
+                // Initialize Firebase
+                const app = initializeApp(firebaseConfig);
+                const analytics = getAnalytics(app);
+                </script>      
     </body>
 </html>

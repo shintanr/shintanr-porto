@@ -2,3 +2,6 @@
 Text Portfolio website Shinta.txt
 /pdf
 /doc
+node_modules
+package-lock.json
+package.json
