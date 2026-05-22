@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "shintanurrohmah",
     "public": ".",
     "ignore": [
       "firebase.json",
